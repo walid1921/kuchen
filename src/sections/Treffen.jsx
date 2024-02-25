@@ -3,7 +3,10 @@ import kitchenlight from "/public/kitchenlight.png";
 
 function Treffen() {
   return (
-    <section id="treffen" className="relative md:section pt-[80px] mt-[100px]  2xl:px-[80px] lg:mx-8 bg-treffenBg bg-center bg-no-repeat bg-cover h-[100vh] center-center ">
+    <section
+      id="treffen"
+      className="relative md:section  mt-[100px] xl:py-[200px]  2xl:px-[80px] lg:mx-8 bg-treffenBg bg-center bg-no-repeat bg-cover  center-center "
+    >
       <div className="absolute inset-0 bg-black opacity-60"></div>
 
       <div className="center-center flex-wrap lg:flex-nowrap  z-20">

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import PrimaryBtn from "../components/btn/PrimaryBtn";
 import { Link } from "react-router-dom";
-import { Link as LinkScroll, animateScroll } from "react-scroll";
+import { Link as LinkScroll } from "react-scroll";
 
 import SecondaryBtn from "../components/btn/SecondaryBtn";
 
