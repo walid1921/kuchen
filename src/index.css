@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .max-container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .section {
+    padding: 100px 0 0 0;
+  }
+
+  .text{
+    color: rgba(0, 0, 0, 0.807)
+  }
+
+}
+
+
+@layer utilities {
+  .hover-education{
+    @apply cursor-pointer border-[0.1px]  py-2 px-4 rounded-lg flex items-center gap-2 transition-all ease-in duration-200 
+  }
+  .hover-service{
+    @apply shadow-lg flex flex-col gap-4 w-full border rounded p-4 border-slate-200 hover:border-slate-400 hover:bg-[#1e2c45] cursor-pointer transition-all ease-in duration-200 transform hover:scale-[1.05] 
+  }
+
+  .nav-item {
+    @apply relative font-semibold hover:text-primary transition-all ease-in duration-150 cursor-pointer  
+  }
+
+  .active-nav{
+    @apply h-[2px] bg-primary absolute left-0 -bottom-[13px] md:-bottom-[10px] w-full rounded-full
+  }
+
+
+  .center-center{
+    @apply flex items-center justify-center
+  }
+
+  .center-between{
+    @apply flex items-center justify-between
+  }
+
+  .center-evenly{
+    @apply flex items-center justify-evenly
+  }
+
+  .primaryBtn{
+    @apply text-white md:text-[16px] text-[12px] md:font-bold font-semibold   tracking-wide  rounded-full py-[10px] md:px-[40px] px-[20px] hover:cursor-pointer transition-all ease-in duration-150 bg-primary hover:bg-white hover:text-primary  gap-2
+  }
+
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  /* font-size: 62.5%; */
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: #1e1e1e;
+  color: #f5f5f5;
+}
+
+
+/* .embla__slider {
+  flex: 0 0 30%;
+  min-width: 0;
+} */
+
+
+.embla {
+  --slide-spacing: 1rem;
+  --slide-size: 70%;
+  --slide-height: 19rem;
+}
+.embla__viewport {
+  overflow: hidden;
+  padding-left: calc(var(--slide-spacing) * 1);
+}
+.embla__container {
+  backface-visibility: hidden;
+  display: flex;
+  touch-action: pan-y;
+  margin-left: calc(var(--slide-spacing) * -1);
+}
+.embla__slide {
+  flex: 0 0 var(--slide-size);
+  min-width: 0;
+  position: relative;
+}
+.embla__slide__img {
+  display: block;
+  width: 100%;
+  height: 100%; 
+  object-fit: cover; 
+  object-position: center; 
+  max-width: 100%; 
+  max-height: 100%; }
+
+
+
+.btn {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn > * {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.btn__visible {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn__invisible {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  top: -100%;
+}
+
+
+.btn:hover .btn__visible {
+  transform: translateY(100%);
+}
+
+.btn:hover .btn__invisible {
+  top: 0;
+}
+
+
+.number-container {
+  position: relative;
+}
+
+.number {
+  position: relative;
+  z-index: 1;
+}
+
+.number::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid #000; /* Adjust border styles as needed */
+  border-radius: 50%;
+  z-index: 0;
+}
+
+/* SpinnerContainer */
+.SpinnerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* spin animation */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* StyledSpinner */
+.StyledSpinner {
+  border: 6px solid #DCA14D;
+  border-top: 6px solid #dca04d72; 
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+
+
+
+
+.imageFade {
+  position: relative;
+  overflow: hidden;
+}
+
+.imageFade::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.imageFade:hover::before {
+  opacity: 1;
+}
