@@ -5,8 +5,7 @@ import { useCallback } from "react";
 import { HiChevronLeft, HiChevronRight } from "react-icons/hi";
 
 export const Slider = ({ steps }) => {
-  const option = {};
-  const [emblaRef, emblaApi] = useEmblaCarousel(option, [Autoplay()]);
+  const [emblaRef, emblaApi] = useEmblaCarousel();
 
   const scrollPrev = useCallback(() => {
     if (emblaApi) emblaApi.scrollPrev();

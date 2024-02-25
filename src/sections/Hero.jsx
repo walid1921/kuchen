@@ -23,7 +23,7 @@ const Hero = () => {
             </p>
           </div>
           <div className="animate-moveInBottom">
-            <PrimaryBtn px={'20px'} py={'18px'} />
+            <PrimaryBtn text="Termin vereinbaren" />
           </div>
         </div>
       </div>
