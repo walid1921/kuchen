@@ -5,6 +5,7 @@ import { Fade as Hamburger } from "hamburger-react";
 
 import { HiChevronUp } from "react-icons/hi";
 import initNavAnimation from "../navAnimation";
+import logo from "/logo.png";
 import PrimaryBtn from "../components/btn/PrimaryBtn";
 
 function Navbar() {
@@ -52,7 +53,8 @@ function Navbar() {
             : 'border-b-[0.1px] border-[rgba(114,114,114,.4)]'
         }`} */}
         <div className={`text-2xl font-bold`}>
-          <h2>Logo</h2>
+        <img src={logo} alt="" className="object-cover object-center w-40" />
+
         </div>
         <ul className="hidden md:flex gap-12">
           <li className="nav-item">

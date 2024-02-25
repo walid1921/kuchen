@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import PrimaryBtn from "./btn/PrimaryBtn";
 import kitchenlight from "/public/kitchenlight.png";
 
@@ -16,7 +17,9 @@ function Treffen() {
             Vereinbaren Sie einen kostenlosen Design-Beratungstermin
           </h2>
 
-          <PrimaryBtn text="Termin vereinbaren" />
+          <Link to="termin" className="animate-moveInBottom">
+            <PrimaryBtn text="Termin vereinbaren" />
+          </Link>
         </div>
         <div>
           <img src={kitchenlight} alt="" />

@@ -1,5 +1,4 @@
 import useEmblaCarousel from "embla-carousel-react";
-import Autoplay from "embla-carousel-autoplay";
 import { useCallback } from "react";
 
 import { HiChevronLeft, HiChevronRight } from "react-icons/hi";

@@ -1,4 +1,3 @@
-
 import kichen1 from "/public/kitchen1.png";
 import ImageSlider from "../components/ImageSlider";
 
@@ -6,49 +5,36 @@ const projects = [
   {
     id: 1,
     title: "Kitchen Remodeling",
-    img: "https://demo2.themelexus.com/kitchor/wp-content/uploads/2022/06/projects-12-850x520.jpg",
-    description:
-      "Revamp your kitchen space with our innovative designs and modern appliances. Create a culinary haven where you can unleash your creativity and indulge in delicious meals with family and friends.",
+    img: "/gallery/IMG_10.JPG",
   },
   {
     id: 2,
     title: "Bathroom Renovation",
-    img: "https://demo2.themelexus.com/kitchor/wp-content/uploads/2022/06/projects-7-850x520.jpg",
-    description:
-      "Transform your bathroom into a luxurious retreat with our bespoke renovation services. From elegant fixtures to spa-like amenities, elevate your daily routines and unwind in style.",
+    img: "/gallery/IMG_4.JPG",
   },
   {
     id: 3,
     title: "Living Room Makeover",
-    img: "https://demo2.themelexus.com/kitchor/wp-content/uploads/2022/06/projects-11-850x520.jpg",
-    description:
-      "Rediscover the heart of your home with a stunning living room makeover. Let natural light flood in through carefully curated windows as you relax in a space designed for comfort and entertainment.",
+    img: "/gallery/IMG_12.JPG",
   },
   {
     id: 4,
     title: "Outdoor Patio Upgrade",
-    img: "https://demo2.themelexus.com/kitchor/wp-content/uploads/2022/06/projects-9-850x520.jpg",
-    description:
-      "Extend your living space outdoors with a captivating patio upgrade. Embrace alfresco dining, cozy gatherings around a fire pit, and tranquil moments surrounded by lush greenery.",
+    img: "/gallery/IMG_29.JPG",
   },
   {
     id: 5,
     title: "Home Office Transformation",
-    img: "https://demo2.themelexus.com/kitchor/wp-content/uploads/2022/06/projects-8-850x520.jpg",
-    description:
-      "Optimize productivity and creativity with a home office transformation. Tailor-made workstations, ergonomic furniture, and personalized decor inspire focus and innovation in your professional endeavors.",
+    img: "/gallery/IMG_60.JPG",
   },
   {
     id: 6,
     title: "Interior Design Consultation",
-    img: kichen1,
-    description:
-      "Embark on a journey of aesthetic refinement with our interior design consultation services. From concept to execution, our experts curate spaces that reflect your unique personality and lifestyle.",
+    img: "/gallery/IMG_3.JPG",
   },
 ];
 
 const Projekte = () => {
-
   return (
     <section
       id="projekte"
@@ -71,7 +57,6 @@ const Projekte = () => {
       </div>
 
       <ImageSlider projects={projects} />
-
     </section>
   );
 };

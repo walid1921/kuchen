@@ -4,11 +4,15 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "heroImage": "url('/public/kitchen 5.png')",
-        "bgUberUns": "url('/public/background.png')",
-        "treffenBg": "url('/public/treffenBg.png')",
+        heroImage1: "url('/public/gallery/IMG_10.JPG')",
+        heroImage2: "url('/public/gallery/IMG_8.JPG')",
+        heroImage3: "url('/public/gallery/IMG_9.JPG')",
+        heroImage4: "url('/public/gallery/IMG_36.JPG')",
+        bgUberUns: "url('/public/background.png')",
+        treffenBg: "url('/public/treffenBg.png')",
+        logo: "url('/public/logo.png')",
       },
-      
+
       colors: {
         primary: "#DCA14D",
         secondary: "#1e1e1e",

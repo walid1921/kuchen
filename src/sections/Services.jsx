@@ -6,49 +6,49 @@ const steps = [
     number: "01",
     title: "Kontaktieren Sie uns",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod eget sed viverra. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi excepturi assumenda repellat architecto dolore. Modi dolorem aut dicta nesciunt, sapiente animi velit quaerat iusto? Ratione ullam quis corrupti cum illum. ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod eget sed viverra. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi excepturi assumenda . ",
   },
   {
     id: 2,
     number: "02",
     title: "Beratung",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod eget sed viverra. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi excepturi assumenda repellat architecto dolore. Modi dolorem aut dicta nesciunt, sapiente animi velit quaerat iusto? Ratione ullam quis corrupti cum illum.  ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod eget sed viverra. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi excepturi assumenda .  ",
   },
   {
     id: 3,
     number: "03",
     title: "Planung",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod eget sed viverra. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi excepturi assumenda repellat architecto dolore. Modi dolorem aut dicta nesciunt, sapiente animi velit quaerat iusto? Ratione ullam quis corrupti cum illum.  ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod eget sed viverra. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi excepturi assumenda repellat   ",
   },
   {
     id: 4,
     number: "04",
     title: "Design",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod eget sed viverra. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi excepturi assumenda repellat architecto dolore. Modi dolorem aut dicta nesciunt, sapiente animi velit quaerat iusto? Ratione ullam quis corrupti cum illum.  ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod eget sed viverra. Modi dolorem aut dicta nesciunt, sapiente animi velit quaerat iusto? Ratione ullam quis corrupti cum illum.  ",
   },
   {
     id: 5,
     number: "05",
     title: "Produktion",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod eget sed viverra. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi excepturi assumenda repellat architecto dolore. Modi dolorem aut dicta nesciunt, sapiente animi velit quaerat iusto? Ratione ullam quis corrupti cum illum.  ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod eget sed viverra. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Am illum.  ",
   },
   {
     id: 6,
     number: "06",
     title: "Installation",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod eget sed viverra. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi excepturi assumenda repellat architecto dolore. Modi dolorem aut dicta nesciunt, sapiente animi velit quaerat iusto? Ratione ullam quis corrupti cum illum.  ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod eget sed viverra. Lorem ipsum dolor sit amet, consectetur adipisicing orrupti cum illum.  ",
   },
 ];
 
 const Services = () => {
   return (
     <section className="md:section pt-[80px] lg:px-[270px] md:px-[80px]">
-      <div className="flex text-center lg:text-start lg:flex-nowrap flex-wrap lg:gap-8">
+      <div className="flex  text-center lg:text-start lg:flex-nowrap flex-wrap lg:gap-8">
         <div className="lg:w-[40%] lg:mb-0 mb-12 px-8 md:px-0">
           <h3 className="text-primary text-[18px] font-semibold md:mb-16 mb-[60px] tracking-[4px]">
             WIE ARBEITEN WIR
@@ -59,7 +59,7 @@ const Services = () => {
           <p className="2xl:text-[20px] text-[14px]  2xl:leading-[40px] leading-[30px] text-justify">
             Lorem ipsum dolor sit amet consectetur. Vitae fusce aenean purus
             gravida lorem ullamcorper eu facilisi. At semper . Aporttitor ut
-            turpis blandit pellentesque.{" "}
+            turpis blandit pellentes.{" "}
           </p>
         </div>
 
