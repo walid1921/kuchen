@@ -3,6 +3,9 @@ import emailjs from "@emailjs/browser";
 import PrimaryBtn from "../components/btn/PrimaryBtn";
 
 function Termin() {
+    
+  const EMAIL_URL = import.meta.env.VITE_EMAIL_URL;
+
   const formRef = useRef();
   const [done, setDone] = useState(false);
 
@@ -45,7 +48,7 @@ function Termin() {
           "service_75azj3m",
           "template_lzm7tak",
           formRef.current,
-          "-EZm67h-WYQsh0NsQ"
+          EMAIL_URL
         )
         .then(
           (result) => {
@@ -70,10 +73,7 @@ function Termin() {
         className=" center-center flex-col "
       >
         <div className="mb-5 ">
-            <option value="">
-                Select your option
-                
-            </option>
+          <option value="">Select your option</option>
 
           {errors.name && (
             <div className="text-red-500 text-xs mb-2">{errors.name}</div>
