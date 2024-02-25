@@ -3,7 +3,6 @@ import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import { flushSync } from "react-dom";
 import { Link } from "react-router-dom";
-import PrimaryBtn from "./btn/PrimaryBtn";
 
 const TWEEN_FACTOR = 4.2;
 
@@ -67,9 +66,7 @@ const ImageSlider = ({ projects, openProject }) => {
             </Link>
           ))}
         </div>
-        <Link to="/gallery" className="center-center mt-24">
-          <PrimaryBtn text="Mehr sehen" />
-        </Link>
+        
       </div>
     </div>
   );

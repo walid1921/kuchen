@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <footer
       id="kontakten"
-      className="md:section md:mt-[150px] mt-[250px] lg:mt-0  w-full md:px-[80px] px-8"
+      className="md:section md:mt-[150px]   mt-[300px] lg:mt-0  w-full md:px-[80px] px-8"
     >
       <div className="flex justify-between md:justify-center items-center flex-wrap lg:flex-nowrap gap-14 lg:gap-0 lg:px-10 w-full mb-10">
         <img src={logo} alt="" className="object-cover object-center lg:w-[20%]" />
@@ -54,7 +54,7 @@ const Footer = () => {
             allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            className="w-full h-[300px] rounded-xl shadow-lg opacity-60 hover:opacity-100 transition-all ease-in-out duration-300"
+            className="w-full h-[300px] rounded-xl shadow-lg opacity-80 hover:opacity-100 transition-all ease-in-out duration-300"
           ></iframe>
         </div>
       </div>

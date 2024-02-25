@@ -1,9 +1,8 @@
 import React, { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
-import PrimaryBtn from "../components/btn/PrimaryBtn";
+import PrimaryBtn from "./btn/PrimaryBtn";
 
 function Termin() {
-    
   const EMAIL_URL = import.meta.env.VITE_EMAIL_URL;
 
   const formRef = useRef();
@@ -66,77 +65,65 @@ function Termin() {
   };
 
   return (
-    <div className="w-full">
-      <form
-        ref={formRef}
-        onSubmit={handelSubmit}
-        className=" center-center flex-col "
-      >
-        <div className="mb-5 ">
-          <option value="">Select your option</option>
-
-          {errors.name && (
-            <div className="text-red-500 text-xs mb-2">{errors.name}</div>
-          )}
-        </div>
-        <div className="mb-5 ">
+    <form
+      ref={formRef}
+      onSubmit={handelSubmit}
+      className="lg:w-[90%] mx-10 lg:mx-0"
+    >
+      <div className="center-center flex-wrap md:flex-nowrap gap-5 ">
+        <div className="mb-5 w-full">
           <input
             type="text"
             name="user_name"
             placeholder="Enter your name"
             value={name}
             onChange={(e) => setName(e.target.value)}
-            className={`text-sm w-full p-3 mb-2 focus:outline-none rounded-md border  focus:border-sky-700
-              focus:bg-blue-100 transition-all ease-in-out hover:border-sky-700 duration-100  ${
-                errors.name ? "border-red-500" : ""
-              }`}
+            className={`text-sm w-full p-3 mb-2 focus:outline-none bg-white/30 border-neutral-400   border  
+                 ${errors.name ? "border-red-500" : ""}`}
           />
 
           {errors.name && (
             <div className="text-red-500 text-xs mb-2">{errors.name}</div>
           )}
         </div>
-
-        <div className="mb-5">
+        <div className="mb-5 w-full">
           <input
             type="email"
             name="user_email"
             placeholder="Enter your email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className={`text-sm w-full p-3 mb-2 focus:outline-none rounded-md border  focus:border-sky-700
-              focus:bg-blue-100 transition-all ease-in-out hover:border-sky-700 duration-100 ${
-                errors.email ? "border-red-500" : ""
-              }`}
+            className={`text-sm w-full p-3 mb-2 focus:outline-none bg-white/30 border-neutral-400  border  
+                ${errors.email ? "border-red-500" : ""}`}
           />
 
           {errors.email && (
             <div className="text-red-500 text-xs mb-2">{errors.email}</div>
           )}
         </div>
+      </div>
 
-        <div className="mb-5">
-          <textarea
-            type="text"
-            name="message"
-            rows={4}
-            placeholder="Write your message"
-            value={message}
-            onChange={(e) => setMessage(e.target.value)}
-            className={`text-sm w-full p-3 focus:outline-none rounded-md resize-none border  focus:border-sky-700
-              focus:bg-blue-100 transition-all ease-in-out hover:border-sky-700 duration-100 ${
-                errors.message ? "border-red-500" : ""
-              }`}
-          />
+      <div className="mb-5">
+        <textarea
+          type="text"
+          name="message"
+          rows={4}
+          placeholder="Write your message"
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
+          className={`text-sm w-full p-3 focus:outline-none bg-white/30 border-neutral-400  resize-none border  
+                ${errors.message ? "border-red-500" : ""}`}
+        />
 
-          {errors.message && (
-            <div className="text-red-500 text-xs mb-2">{errors.message}</div>
-          )}
-        </div>
+        {errors.message && (
+          <div className="text-red-500 text-xs mb-2">{errors.message}</div>
+        )}
+      </div>
 
-        <PrimaryBtn text="send" />
-      </form>
-    </div>
+      <div className="center-center">
+        <PrimaryBtn text="Absenden" />
+      </div>
+    </form>
   );
 }
 

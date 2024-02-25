@@ -1,5 +1,6 @@
-import kichen1 from "/public/kitchen1.png";
 import ImageSlider from "../components/ImageSlider";
+import { Link } from "react-router-dom";
+import PrimaryBtn from "../components/btn/PrimaryBtn";
 
 const projects = [
   {
@@ -57,6 +58,10 @@ const Projekte = () => {
       </div>
 
       <ImageSlider projects={projects} />
+
+      <Link to="/gallery" className="center-center mt-10">
+        <PrimaryBtn text="Mehr sehen" />
+      </Link>
     </section>
   );
 };

@@ -6,7 +6,6 @@ import { Fade as Hamburger } from "hamburger-react";
 import { HiChevronUp } from "react-icons/hi";
 import initNavAnimation from "../navAnimation";
 import logo from "/logo.png";
-import PrimaryBtn from "../components/btn/PrimaryBtn";
 
 function Navbar() {
   const [scrolling, setScrolling] = useState(false);

@@ -57,9 +57,8 @@ const Services = () => {
             6 einfache Schritte zur Innenraumgestaltung
           </h2>
           <p className="2xl:text-[20px] text-[14px]  2xl:leading-[40px] leading-[30px] text-justify">
-            Lorem ipsum dolor sit amet consectetur. Vitae fusce aenean purus
-            gravida lorem ullamcorper eu facilisi. At semper . Aporttitor ut
-            turpis blandit pellentes.{" "}
+            Die Größe Ihrer Küche variiert je nach Layout. Die Form der Küche
+            bestimmt auch den Platz für Schränke, Arbeitsplatten und Zubehör.
           </p>
         </div>
 
