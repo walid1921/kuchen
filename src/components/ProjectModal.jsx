@@ -9,20 +9,20 @@ function ProjectModal({ closeProject, gallery, selectedProject }) {
       onRequestClose={closeProject}
       style={{
         overlay: {
-          backgroundColor: "rgba(0, 0, 0, 0.4)",
+          backgroundColor: "rgba(0, 0, 0, 0)",
           backdropFilter: "blur(5px)",
           zIndex: 1000,
         },
         content: {
-          background: "rgba(0, 0, 0, 0.7)",
+          background: "rgba(0, 0, 0, 0)",
           borderRadius: "16px",
-          boxShadow: "0 4px 30px rgba(0, 0, 0, 0.1)",
+          boxShadow: "0 4px 30px rgba(0, 0, 0, 0)",
           backdropFilter: "blur(5px)",
           WebkitBackdropFilter: "blur(5px)",
-          border: "1px solid rgba(0, 0, 0, 0.3)",
+          border: "1px solid rgba(0, 0, 0, 0)",
           color: "#fff",
-          width: `${window.innerWidth > 768 ? "" : "600px"}`,
-          height: `${window.innerWidth > 768 ? "" : "500px"}`,
+          width: `${window.innerWidth > 768 ? "70%" : ""}`,
+          height: `${window.innerWidth > 768 ? "70%" : " "}`,
           top: "50%",
           left: "50%",
           right: "auto",
@@ -32,16 +32,20 @@ function ProjectModal({ closeProject, gallery, selectedProject }) {
       }}
     >
       {selectedProject !== null && (
-        <div className="center-center h-[350px]  w-[600px] md:w-full rotate-90 md:rotate-0">
-          <button className="z-50 hover:cursor-pointer absolute  top-3 right-3 rounded-md p-1 text-white hover:text-primary transition-all ease-in duration-150 ">
-            <HiOutlineX size={25} onClick={closeProject} />
-          </button>
+        <div className="center-center h-[700px]  w-[600px] lg:w-full lg:h-full rotate-90 lg:rotate-0">
+          <div className="relative">
+            <img
+              src={
+                gallery.find((project) => project.id === selectedProject).url
+              }
+              alt=""
+              className="center-center  object-cover object-center rounded-md  "
+            />
 
-          <img
-            src={gallery.find((project) => project.id === selectedProject).url}
-            alt=""
-            className="center-center  object-cover object-center rounded-md  "
-          />
+            <button className="z-50 hover:cursor-pointer absolute  top-3 right-3 rounded-md p-1 text-white hover:text-primary transition-all ease-in duration-150 ">
+              <HiOutlineX size={25} onClick={closeProject} />
+            </button>
+          </div>
         </div>
       )}
     </Modal>
