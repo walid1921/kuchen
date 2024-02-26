@@ -22,8 +22,6 @@ function ProjectModal({ closeProject, gallery, selectedProject }) {
           WebkitBackdropFilter: "blur(5px)",
           border: "1px solid rgba(0, 0, 0, 0)",
           color: "#fff",
-          width: `${window.innerWidth > 768 ? "" : "100wh"}`,
-          height: `${window.innerWidth > 768 ? "" : "100vh "}`,
           top: "50%",
           left: "50%",
           right: "auto",
