@@ -22,6 +22,8 @@ function ProjectModal({ closeProject, gallery, selectedProject }) {
           WebkitBackdropFilter: "blur(5px)",
           border: "1px solid rgba(0, 0, 0, 0)",
           color: "#fff",
+          width: `${window.innerWidth > 768 ? "" : "100%"}`,
+          height: `${window.innerWidth > 768 ? "" : "100% "}`,
           top: "50%",
           left: "50%",
           right: "auto",
@@ -31,7 +33,7 @@ function ProjectModal({ closeProject, gallery, selectedProject }) {
       }}
     >
       {selectedProject !== null && (
-        <div className="center-center h-[100vh]  w-[600px] lg:w-full lg:h-full rotate-90 lg:rotate-0">
+        <div className="center-center h-[100vh]  w-full md:w-full lg:h-full rotate-90 lg:rotate-0">
           <div className="relative">
             <img
               src={
