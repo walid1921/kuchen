@@ -12,12 +12,12 @@ const Footer = () => {
   return (
     <footer
       id="kontakten"
-      className="md:section  mt-[100px] lg:mt-0  w-full md:px-[80px] px-8"
+      className="md:section  mt-[50px] md:mt-0 lg:mt-0  w-full md:px-[80px] px-8"
     >
       <div className="flex justify-between md:justify-center items-center flex-wrap lg:flex-nowrap gap-14 lg:gap-0 lg:px-10 w-full mb-10">
         <img src={logo} alt="" className="object-cover object-center lg:w-[20%]" />
 
-        <div className="flex flex-col items-center justify-center  lg:w-[30%] w-full gap-6 z-10 lg:mb-0 mb-16">
+        <div className="flex flex-col items-center justify-center  lg:w-[30%] w-full gap-6 z-10 lg:mb-0 mb-[50px] md:mb-16">
           <div className="flex flex-col gap-6">
             <a
               href="https://www.instagram.com/kuechentrend?igsh=Y3FraDQxbWNocjRy"

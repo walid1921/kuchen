@@ -68,17 +68,17 @@ const Gallery = () => {
 
   return (
     <div className="flex relative flex-col ">
-      <h2 className="2xl:text-[45px] my-8 text-[28px] font-bold 2xl:leading-[60px] text-center bg-gradient-to-r from-white to-[#a5a5a5] bg-clip-text text-transparent ">
-        Galerie
-      </h2>
-      <div className="center-between flex-wrap mx-4 mb-10 backdrop-blur-md">
+      <div className="center-between flex-wrap mx-4 mb-10 md:mb-0 backdrop-blur-md">
         <div className=" p-2 rotate-[270deg] bg-[rgba(114,114,114,0.69)] border border-gray-400 backdrop-blur-sm rounded-full hover:cursor-pointer transition-all ease-in-out duration-300 hover:bg-primary hover:text-white">
           <LinkRouter to={"/"}>
             <HiChevronUp size={28} />
           </LinkRouter>
         </div>
+        <h2 className="2xl:text-[45px] my-8 text-[28px] font-bold 2xl:leading-[60px] text-center bg-gradient-to-r from-white to-[#a5a5a5] bg-clip-text text-transparent ">
+          Galerie
+        </h2>
 
-        <div className={`center border rounded z-10 mt-8 md:mt-0 `}>
+        <div className={`center border rounded z-10  `}>
           <button
             onClick={() => setFilter("all")}
             className={` text-[14px] md:text-[16px] border-r py-2 md:px-4 px-3 cursor-pointer transition-all ease-in duration-200 hover:bg-[rgba(114,114,114,0.6)] text-[#bbb] border-[rgba(114,114,114,.4)`}

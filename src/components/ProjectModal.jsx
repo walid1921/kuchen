@@ -21,7 +21,8 @@ function ProjectModal({ closeProject, gallery, selectedProject }) {
           WebkitBackdropFilter: "blur(5px)",
           border: "1px solid rgba(0, 0, 0, 0.3)",
           color: "#fff",
-          width: `${window.innerWidth > 768 ? "" : "100%"}`,
+          width: `${window.innerWidth > 768 ? "" : "90%"}`,
+          height: `${window.innerWidth > 768 ? "" : "70%"}`,
           top: "50%",
           left: "50%",
           right: "auto",
@@ -31,15 +32,15 @@ function ProjectModal({ closeProject, gallery, selectedProject }) {
       }}
     >
       {selectedProject !== null && (
-        <div className="center-center">
-          <button className="hover:cursor-pointer absolute top-5 right-5 rounded-md p-1 text-white hover:text-primary transition-all ease-in duration-150 ">
+        <div className="flex  w-[500px] h-full md:w-full rotate-90 md:rotate-0">
+          <button className="z-50 hover:cursor-pointer absolute  top-3 right-3 rounded-md p-1 text-white hover:text-primary transition-all ease-in duration-150 ">
             <HiOutlineX size={25} onClick={closeProject} />
           </button>
 
           <img
             src={gallery.find((project) => project.id === selectedProject).url}
             alt=""
-            className=" xl:h-[80vh] object-cover object-center rounded-md"
+            className=" object-cover object-center rounded-md  "
           />
         </div>
       )}

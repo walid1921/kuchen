@@ -26,19 +26,19 @@ function Termin() {
     const errors = {};
 
     if (!name) {
-      errors.name = "Name is required";
+      errors.name = "Name ist erforderlich";
     } else if (/\d|\./.test(name)) {
-      errors.name = "Name should not contain numbers or dots";
+      errors.name = "Name darf keine Zahlen oder Punkte enthalten";
     }
 
     if (!email) {
-      errors.email = "Email is required";
+      errors.email = "E-Mail ist erforderlich";
     } else if (!/@/.test(email)) {
-      errors.email = "Invalid email format";
+      errors.email = "Ungültiges E-Mail-Format";
     }
 
     if (!message) {
-      errors.message = "Message is required";
+      errors.message = "Nachricht ist erforderlich";
     }
 
     if (Object.keys(errors).length === 0) {
@@ -71,11 +71,11 @@ function Termin() {
       className="lg:w-[90%] mx-10 lg:mx-0"
     >
       <div className="center-center flex-wrap md:flex-nowrap gap-5 ">
-        <div className="mb-5 w-full">
+        <div className="md:mb-5 w-full">
           <input
             type="text"
             name="user_name"
-            placeholder="Enter your name"
+            placeholder="Geben Sie Ihren Namen ein"
             value={name}
             onChange={(e) => setName(e.target.value)}
             className={`text-sm w-full p-3 mb-2 focus:outline-none bg-white/30 border-neutral-400   border  
@@ -90,7 +90,7 @@ function Termin() {
           <input
             type="email"
             name="user_email"
-            placeholder="Enter your email"
+            placeholder="Geben Sie Ihre E-Mail ein"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             className={`text-sm w-full p-3 mb-2 focus:outline-none bg-white/30 border-neutral-400  border  
@@ -103,15 +103,15 @@ function Termin() {
         </div>
       </div>
 
-      <div className="mb-5">
+      <div className="mb-10">
         <textarea
           type="text"
           name="message"
           rows={4}
-          placeholder="Write your message"
+          placeholder="Schreiben Sie Ihre Nachricht"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
-          className={`text-sm w-full p-3 focus:outline-none bg-white/30 border-neutral-400  resize-none border  
+          className={`text-sm  w-full p-3 focus:outline-none bg-white/30 border-neutral-400  resize-none border  
                 ${errors.message ? "border-red-500" : ""}`}
         />
 
