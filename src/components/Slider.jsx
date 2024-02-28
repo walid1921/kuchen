@@ -29,7 +29,7 @@ export const Slider = ({ steps }) => {
               <p className="text-secondary text-center mb-3 md:text-[22px] text-[14px] font-bold ">
                 {step.title}
               </p>
-              <p className="text-secondary 2xl:text-[16px] text-[13px] text-center 2xl:leading-[40px] md:leading-[30px] leading-[25px] px-2">
+              <p className="text-secondary text-justify 2xl:text-[16px] text-[13px] 2xl:leading-[40px] md:leading-[30px] leading-[25px] md:px-2 px-6">
                 {step.description}
               </p>
             </div>
