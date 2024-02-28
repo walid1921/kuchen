@@ -2,23 +2,23 @@ import { HiOutlineCheckCircle } from "react-icons/hi";
 
 function AdditionalServices() {
   return (
-    <section className="md:section md:mt-[50px] md:mb-[100px] pt-[80px] 2xl:px-[270px] lg:px-[80px]">
+    <section className="md:section md:mt-[50px] md:mb-[100px] pt-[80px] 2xl:px-[270px] md:px-[80px]">
       <div className="flex text-center lg:text-start lg:flex-nowrap flex-wrap-reverse lg:gap-8">
         <div className="xl:relative flex flex-wrap justify-center gap-3 lg:w-[60%] w-full mt-6 lg:mt-0">
           <img
             src="/gallery/IMG_27.JPG"
             alt=""
-            className="h-[300px] xl:absolute top-0 left-0 object-cover object-center z-5 hover:z-20 hover:cursor-pointer hover:scale-105 transition-all ease-in-out duration-300 "
+            className="h-[300px] xl:absolute top-0 left-0 object-cover object-center z-5 hover:z-20 hover:cursor-pointer xl:hover:scale-105 transition-all ease-in-out duration-300 "
           />
           <img
             src="/gallery/IMG_20.JPG"
             alt=""
-            className="h-[300px] object-cover object-center xl:absolute top-16 right-9 z-5 hover:z-20 hover:cursor-pointer hover:scale-105 transition-all ease-in-out duration-300"
+            className="h-[300px] object-cover object-center xl:absolute top-16 right-9 z-5 hover:z-20 hover:cursor-pointer xl:hover:scale-105 transition-all ease-in-out duration-300"
           />
           <img
             src="/gallery/IMG_35.JPG"
             alt=""
-            className="h-[300px] object-cover object-center xl:absolute -bottom-16 left-32 z-1 hover:z-20 hover:cursor-pointer hover:scale-105 transition-all ease-in-out duration-300"
+            className="h-[300px] object-cover object-center xl:absolute -bottom-16 left-32 z-1 hover:z-20 hover:cursor-pointer xl:hover:scale-105 transition-all ease-in-out duration-300"
           />
         </div>
 
