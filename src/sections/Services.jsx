@@ -6,48 +6,48 @@ const steps = [
     number: "01",
     title: "Kontaktieren Sie uns",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod eget sed viverra. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi excepturi assumenda . ",
+      "Nehmen Sie Kontakt mit uns auf, um detaillierte Informationen zu erhalten oder Fragen zu stellen. Wir stehen Ihnen zur Verfügung, um Ihnen zu helfen und alle Ihre Anfragen zu beantworten",
   },
   {
     id: 2,
     number: "02",
     title: "Beratung",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod eget sed viverra. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi excepturi assumenda .  ",
+      "Erhalten Sie professionelle Beratung von unseren Experten. Wir helfen Ihnen, alle Aspekte zu verstehen und die besten Lösungen für Ihre Küche auszuwählen",
   },
   {
     id: 3,
     number: "03",
     title: "Planung",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod eget sed viverra. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi excepturi assumenda repellat   ",
+      "Wir erstellen gemeinsam mit Ihnen einen detaillierten Plan für jeden Schritt des Projekts. Ihre Beteiligung an der Planung garantiert die Erfüllung all Ihrer Anforderungen und Wünsche",
   },
   {
     id: 4,
     number: "04",
     title: "Design",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod eget sed viverra. Modi dolorem aut dicta nesciunt, sapiente animi velit quaerat iusto? Ratione ullam quis corrupti cum illum.  ",
+      "Unsere Designer werden ein einzigartiges Design für Ihre Küche erstellen, unter Berücksichtigung Ihres Stils und Ihrer funktionalen Anforderungen. Das Ergebnis: Ästhetik und Komfort in jedem Detail",
   },
   {
     id: 5,
     number: "05",
     title: "Produktion",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod eget sed viverra. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Am illum.  ",
+      "Dank moderner Ausrüstung und hochwertiger Materialien setzen wir Ihr Design in die Realität um. Verfolgen Sie den Produktionsprozess und überzeugen Sie sich von der Qualität unserer Produkte",
   },
   {
     id: 6,
     number: "06",
     title: "Installation",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod eget sed viverra. Lorem ipsum dolor sit amet, consectetur adipisicing orrupti cum illum.  ",
+      "Unsere qualifizierten Handwerker installieren alle Elemente Ihrer Küche unter Berücksichtigung jeder einzelnen Details. Das Ergebnis: eine fertige Küche, die allen Ihren Erwartungen entspricht",
   },
 ];
 
 const Services = () => {
   return (
-    <section className="md:section pt-[80px] lg:px-[270px] md:px-[80px]">
+    <section className="md:section pt-[80px] 2xl:px-[270px] lg:px-[80px]">
       <div className="flex  text-center lg:text-start lg:flex-nowrap flex-wrap lg:gap-8">
         <div className="lg:w-[40%] lg:mb-0 mb-12 px-8 md:px-0">
           <h3 className="text-primary text-[18px] font-semibold md:mb-16 mb-[60px] tracking-[4px]">

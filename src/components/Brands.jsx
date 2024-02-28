@@ -56,7 +56,7 @@ const logos = [
 
 function Brands({ direction = "left"}) {
   return (
-    <section className={`lg:px-[270px]`}>
+    <section className={`2xl:px-[270px]`}>
       <Marquee pauseOnHover={true} direction={direction}>
         {logos.map((logo) => (
           <div key={logo.id} className="md:mr-16 mr-6">

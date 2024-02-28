@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import PrimaryBtn from "./btn/PrimaryBtn";
 
@@ -44,8 +44,8 @@ function Termin() {
     if (Object.keys(errors).length === 0) {
       emailjs
         .sendForm(
-          "service_75azj3m",
-          "template_lzm7tak",
+          "service_75azj3m", //! change it to your service ID / and also change in Vercel env variables 
+          "template_0b156ro", 
           formRef.current,
           EMAIL_URL
         )

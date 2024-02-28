@@ -4,10 +4,7 @@ import Autoplay from "embla-carousel-autoplay";
 import { flushSync } from "react-dom";
 import { Link } from "react-router-dom";
 
-const TWEEN_FACTOR = 4.2;
 
-const numberWithinRange = (number, min, max) =>
-  Math.min(Math.max(number, min), max);
 
 const ImageSlider = ({ projects, openProject }) => {
   const option = {};
@@ -15,27 +12,8 @@ const ImageSlider = ({ projects, openProject }) => {
 
   const onScroll = useCallback(() => {
     if (!emblaApi) return;
-
-    const engine = emblaApi.internalEngine();
-    const scrollProgress = emblaApi.scrollProgress();
-
-    const styles = emblaApi.scrollSnapList().map((scrollSnap, index) => {
-      let diffToTarget = scrollSnap - scrollProgress;
-
-      if (engine.options.loop) {
-        engine.slideLooper.loopPoints.forEach((loopItem) => {
-          const target = loopItem.target();
-          if (index === loopItem.index && target !== 0) {
-            const sign = Math.sign(target);
-            if (sign === -1) diffToTarget = scrollSnap - (1 + scrollProgress);
-            if (sign === 1) diffToTarget = scrollSnap + (1 - scrollProgress);
-          }
-        });
-      }
-      const tweenValue = 1 - Math.abs(diffToTarget * TWEEN_FACTOR);
-      return numberWithinRange(tweenValue, 0, 1);
-    });
   }, [emblaApi]);
+
 
   useEffect(() => {
     if (!emblaApi) return;
@@ -53,7 +31,7 @@ const ImageSlider = ({ projects, openProject }) => {
         <div className="embla__container xl:gap-[160px] gap-8">
           {projects.map((index) => (
             <Link
-              className="embla__slide relative xl:h-[520px] xl:w-[850px] h-[250px] imageFade hover:cursor-pointer transition-all ease-in-out duration-300"
+              className="embla__slide relative xl:h-[520px] xl:w-[850px] h-[250px] imageFade hover:cursor-grab transition-all ease-in-out duration-300"
               key={index.id}
               to="/gallery"
             >

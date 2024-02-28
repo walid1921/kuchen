@@ -8,6 +8,7 @@ import Projekte from "../sections/Projekte";
 import Reviews from "../sections/Reviews";
 import Services from "../sections/Services";
 import Products from "../sections/UberUns";
+import AdditionalServices from "../sections/AdditionalServices";
 
 function HomePage() {
   return (
@@ -24,6 +25,8 @@ function HomePage() {
         <Brands />
         <Brands direction="right" paddingTop={"20px"} />
       </div>
+
+      <AdditionalServices />
 
       <Services />
 

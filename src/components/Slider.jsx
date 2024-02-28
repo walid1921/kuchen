@@ -21,7 +21,7 @@ export const Slider = ({ steps }) => {
           {steps.map((step) => (
             <div
               key={step.id}
-              className=" w-full md:px-[40px] md:mx-[20px] py-6  bg-neutral-300 hover:bg-neutral-200 hover:cursor-pointer  transition-all ease-in-out duration-300"
+              className=" w-full md:px-[40px] md:mx-[20px] py-6  bg-neutral-300 hover:bg-neutral-200 hover:cursor-grab  transition-all ease-in-out duration-300"
             >
               <p className="text-primary fill-transparent text-center font-extrabold text-[40px] 2xl:text-[130px] 2xl:mx-12 mx-32">
                 {step.number}
