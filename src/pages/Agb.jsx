@@ -102,17 +102,6 @@ const Agb = () => {
             vornehmen lässt, trägt er insoweit das Risiko.
           </p>
 
-          {/* <p className="t text-justify">
-              <strong className="bg-gradient-to-r from-white to-[#a5a5a5] bg-clip-text text-transparent text-[24px] font-extrabold  tracking-[4px]">
-                3. Lieferfrist
-              </strong>
-              <br />
-              Falls der V
-              <br />
-            
-            
-            </p> */}
-
           <p className="t text-justify">
             <strong className="bg-gradient-to-r from-white to-[#a5a5a5] bg-clip-text text-transparent text-[24px] font-extrabold  tracking-[4px]">
               5. GEFAHRÜBERGANG

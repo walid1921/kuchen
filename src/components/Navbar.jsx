@@ -46,11 +46,6 @@ function Navbar() {
           scrolling ? "bg-[rgba(114,114,114,.2)] backdrop-blur-md" : ""
         } `}
       >
-        {/* className={`flex items-center justify-between gap-6 text-sm  z-10 py-3 mt-2 px-6 md:text-[16px] md:gap-12 md:mt-8 md:py-4 ${
-          scrolling
-            ? 'bg-[rgba(114,114,114,.2)] backdrop-blur-md rounded-full border-[0.1px] border-[rgba(114,114,114,.4)]'
-            : 'border-b-[0.1px] border-[rgba(114,114,114,.4)]'
-        }`} */}
         <div className={`text-2xl font-bold`}>
         <img src={logo} alt="" className="object-cover object-center w-40" />
 

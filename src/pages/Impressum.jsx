@@ -58,8 +58,11 @@ const Impressum = () => {
               </a>
               <br />
               Internet:{" "}
-              <a className="underline  text-primary" href="https://">
-                https://
+              <a
+                className="underline  text-primary"
+                href="https://kuechentrend-kayu.de/"
+              >
+                https://kuechentrend-kayu.de/
               </a>
             </p>
 
