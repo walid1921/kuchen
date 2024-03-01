@@ -44,7 +44,7 @@ function Termin() {
     if (Object.keys(errors).length === 0) {
       emailjs
         .sendForm(
-          "service_1p80nsa", //! change it to your service ID / and also change in Vercel env variables 
+          "service_7gydm4d", //! change it to your service ID / and also change in Vercel env variables 
           "template_0b156ro", 
           formRef.current,
           EMAIL_URL
