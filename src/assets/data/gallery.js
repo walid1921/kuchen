@@ -1,5 +1,10 @@
 const images = [
-  { id: 1, title: "Image 1", category: "wohnzimmer", url: "/gallery/IMG_1.JPG" },
+  {
+    id: 1,
+    title: "Image 1",
+    category: "wohnzimmer",
+    url: "/gallery/IMG_1.JPG",
+  },
   { id: 2, title: "Image 2", category: "küche", url: "/gallery/IMG_2.JPG" },
 
   { id: 3, title: "Image 3", category: "küche", url: "/gallery/IMG_3.JPG" },
@@ -366,6 +371,55 @@ const images = [
 
     category: "küche",
     url: "/gallery/IMG_62.JPG",
+  },
+  {
+    id: 63,
+    title: "Image 63",
+
+    category: "mobel",
+    url: "/gallery/IMG_63.JPG",
+  },
+  {
+    id: 64,
+    title: "Image 64",
+
+    category: "mobel",
+    url: "/gallery/IMG_64.JPG",
+  },
+  {
+    id: 65,
+    title: "Image 65",
+
+    category: "mobel",
+    url: "/gallery/IMG_65.JPG",
+  },
+  {
+    id: 66,
+    title: "Image 66",
+
+    category: "mobel",
+    url: "/gallery/IMG_66.JPG",
+  },
+  {
+    id: 67,
+    title: "Image 67",
+
+    category: "mobel",
+    url: "/gallery/IMG_67.JPG",
+  },
+  {
+    id: 68,
+    title: "Image 68",
+
+    category: "mobel",
+    url: "/gallery/IMG_68.JPG",
+  },
+  {
+    id: 69,
+    title: "Image 69",
+
+    category: "mobel",
+    url: "/gallery/IMG_69.JPG",
   },
 ];
 

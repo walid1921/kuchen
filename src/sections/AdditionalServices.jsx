@@ -1,14 +1,16 @@
 import { HiOutlineCheckCircle } from "react-icons/hi";
+import PrimaryBtn from "../components/btn/PrimaryBtn";
+import { Link } from "react-router-dom";
 
 function AdditionalServices() {
   return (
-    <section className="md:section md:mt-[50px] md:mb-[100px] pt-[80px] 2xl:px-[270px] md:px-[80px]">
+    <section className="md:section md:my-[50px] pt-[80px] 2xl:px-[270px] md:px-[80px]">
       <div className="flex text-center lg:text-start lg:flex-nowrap flex-wrap-reverse lg:gap-8">
-        <div className="xl:relative flex flex-wrap justify-center gap-3 lg:w-[60%] w-full mt-6 lg:mt-0">
+        <div className="xl:relative flex flex-wrap justify-center gap-6 lg:w-[60%] w-full mt-6 lg:mt-0 px-8 ">
           <img
             src="/gallery/IMG_27.JPG"
             alt=""
-            className="h-[300px] xl:absolute top-0 left-0 object-cover object-center z-5 hover:z-20 hover:cursor-pointer xl:hover:scale-105 transition-all ease-in-out duration-300 "
+            className="h-[250px] xl:absolute top-0 left-0 object-cover object-center z-5 hover:z-20 hover:cursor-pointer xl:hover:scale-105 transition-all ease-in-out duration-300 "
           />
           <img
             src="/gallery/IMG_20.JPG"
@@ -63,6 +65,10 @@ function AdditionalServices() {
           </ul>
         </div>
       </div>
+
+      <Link to="/gallery" className="center-center mt-[4rem] lg:mt-32">
+        <PrimaryBtn text="Mehr sehen" icon="HiOutlineArrowSmRight" />
+      </Link>
     </section>
   );
 }

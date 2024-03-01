@@ -44,7 +44,7 @@ function Termin() {
     if (Object.keys(errors).length === 0) {
       emailjs
         .sendForm(
-          "service_75azj3m", //! change it to your service ID / and also change in Vercel env variables 
+          "service_1p80nsa", //! change it to your service ID / and also change in Vercel env variables 
           "template_0b156ro", 
           formRef.current,
           EMAIL_URL
@@ -121,7 +121,7 @@ function Termin() {
       </div>
 
       <div className="center-center">
-        <PrimaryBtn text="Absenden" />
+        <PrimaryBtn text="Absenden" icon="BsFillSendFill" />
       </div>
     </form>
   );

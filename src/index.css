@@ -57,6 +57,14 @@
     @apply text-white md:text-[16px] text-[12px] md:font-bold font-semibold   tracking-wide  rounded-full py-[10px] md:px-[40px] px-[20px] hover:cursor-pointer transition-all ease-in duration-150 bg-primary hover:bg-white hover:text-primary  gap-2
   }
 
+  .wp-block-heading{
+  @apply bg-gradient-to-r from-white to-[#a5a5a5] bg-clip-text text-transparent text-[24px] font-extrabold  tracking-[4px] my-8
+  }
+  .links{
+    @apply  text-primary underline
+  
+  }
+
 }
 
 *,
@@ -222,3 +230,4 @@ body {
 .imageFade:hover::before {
   opacity: 1;
 }
+

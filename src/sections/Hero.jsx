@@ -65,7 +65,7 @@ const Hero = () => {
           </div>
           <div className="center-center gap-5 animate-moveInBottom">
             <LinkScroll to="treffen">
-              <PrimaryBtn text="Termin vereinbaren" />
+              <PrimaryBtn text="Termin vereinbaren" icon="BsFillSendFill"/>
             </LinkScroll>
             <Link to="gallery">
               <SecondaryBtn />

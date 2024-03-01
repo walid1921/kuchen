@@ -23,13 +23,13 @@ export const Slider = ({ steps }) => {
               key={step.id}
               className=" w-full md:px-[40px] md:mx-[20px] py-6  bg-neutral-300 hover:bg-neutral-200 hover:cursor-grab  transition-all ease-in-out duration-300"
             >
-              <p className="text-primary fill-transparent text-center font-extrabold text-[40px] 2xl:text-[130px] 2xl:mx-12 mx-32">
+              <p className="text-primary fill-transparent text-center font-extrabold text-[40px] 2xl:text-[130px] 2xl:mx-16 mx-32">
                 {step.number}
               </p>
               <p className="text-secondary text-center mb-3 md:text-[22px] text-[14px] font-bold ">
                 {step.title}
               </p>
-              <p className="text-secondary text-justify 2xl:text-[16px] text-[13px] 2xl:leading-[40px] md:leading-[30px] leading-[25px] md:px-2 px-6">
+              <p className="text-secondary text-justify   2xl:text-[16px] text-[13px] 2xl:leading-[40px] md:leading-[30px] leading-[25px] md:px-0 px-6">
                 {step.description}
               </p>
             </div>

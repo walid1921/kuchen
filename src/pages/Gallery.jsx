@@ -43,8 +43,6 @@ const Gallery = () => {
       const filteredGallery = gallery.filter(
         (item) => item.category === "küche"
       );
-      console.log(filteredGallery);
-
       setProject(filteredGallery);
     }
 
@@ -52,16 +50,20 @@ const Gallery = () => {
       const filteredGallery = gallery.filter(
         (item) => item.category === "badezimmer"
       );
-      console.log(filteredGallery);
-
       setProject(filteredGallery);
     }
+
     if (filter === "wohnzimmer") {
       const filteredGallery = gallery.filter(
         (item) => item.category === "wohnzimmer"
       );
-      console.log(filteredGallery);
+      setProject(filteredGallery);
+    }
 
+    if (filter === "mobel") {
+      const filteredGallery = gallery.filter(
+        (item) => item.category === "mobel"
+      );
       setProject(filteredGallery);
     }
   }, [filter]);
@@ -105,6 +107,12 @@ const Gallery = () => {
             className={` text-[14px] md:text-[16px] border-r py-2 md:px-4 px-3 cursor-pointer transition-all ease-in duration-200 hover:bg-[rgba(114,114,114,0.6)] text-[#bbb] border-[rgba(114,114,114,.4)`}
           >
             Wohnzimmer
+          </button>
+          <button
+            onClick={() => setFilter("mobel")}
+            className={` text-[14px] md:text-[16px] border-r py-2 md:px-4 px-3 cursor-pointer transition-all ease-in duration-200 hover:bg-[rgba(114,114,114,0.6)] text-[#bbb] border-[rgba(114,114,114,.4)`}
+          >
+            Büromöbel
           </button>
         </div>
       </div>

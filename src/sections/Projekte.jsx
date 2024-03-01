@@ -60,7 +60,7 @@ const Projekte = () => {
       <ImageSlider projects={projects} />
 
       <Link to="/gallery" className="center-center ">
-        <PrimaryBtn text="Mehr sehen" />
+        <PrimaryBtn text="Mehr sehen" icon="HiOutlineArrowSmRight" />
       </Link>
     </section>
   );
