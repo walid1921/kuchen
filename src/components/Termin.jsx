@@ -1,12 +1,12 @@
 import { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import PrimaryBtn from "./btn/PrimaryBtn";
+import toast from "react-hot-toast";
 
 function Termin() {
   const EMAIL_URL = import.meta.env.VITE_EMAIL_URL;
 
   const formRef = useRef();
-  const [done, setDone] = useState(false);
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -44,19 +44,20 @@ function Termin() {
     if (Object.keys(errors).length === 0) {
       emailjs
         .sendForm(
-          "service_7gydm4d", //! change it to your service ID / and also change in Vercel env variables 
-          "template_0b156ro", 
+          "service_7gydm4d", //! change it to your service ID / and also change in Vercel env variables
+          "template_0b156ro",
           formRef.current,
           EMAIL_URL
         )
         .then(
           (result) => {
             console.log(result.text);
-            setDone(true);
+            toast.success("Nachricht erfolgreich gesendet");
             resetForm(); // Reset the input fields
           },
           (error) => {
             console.log(error.text);
+            toast.error("Fehler beim Senden der Nachricht");
           }
         );
     } else {
