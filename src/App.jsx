@@ -26,8 +26,8 @@ const App = () => {
         <Route path="impressum" element={<Impressum />} />
         <Route path="datenschutz" element={<Datenschutz />} />
         <Route path="agb" element={<Agb />} />
-
-        <Toaster
+      </Routes>
+      <Toaster
         position="top-center"
         gutter={12}
         containerStyle={{ margin: "8px" }}
@@ -43,7 +43,6 @@ const App = () => {
           },
         }}
       />
-      </Routes>
     </>
   );
 };
