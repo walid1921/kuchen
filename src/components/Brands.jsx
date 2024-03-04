@@ -10,6 +10,9 @@ import logo7 from "/public/logo7.png";
 import logo8 from "/public/logo8.png";
 import logo9 from "/public/logo9.png";
 import logo10 from "/public/logo10.png";
+import logo11 from "/public/logo11.png";
+import logo12 from "/public/logo12.png";
+import logo13 from "/public/logo13.png";
 
 const logos = [
   {
@@ -52,9 +55,21 @@ const logos = [
     id: 10,
     img: logo10,
   },
+  {
+    id: 11,
+    img: logo11,
+  },
+  {
+    id: 12,
+    img: logo12,
+  },
+  {
+    id: 13,
+    img: logo13,
+  },
 ];
 
-function Brands({ direction = "left"}) {
+function Brands({ direction = "left" }) {
   return (
     <section className={`2xl:px-[270px]`}>
       <Marquee pauseOnHover={true} direction={direction}>

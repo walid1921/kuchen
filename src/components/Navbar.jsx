@@ -68,11 +68,11 @@ function Navbar() {
             </Link>
           </li>
           <li className="nav-item">
-            <RouterLink to="gallery">Galerie</RouterLink>
+            <RouterLink to="gallery">Beispiele</RouterLink>
           </li>
           <li className="nav-item">
             <Link to="kontakten" smooth duration={600}>
-              Kontakten
+              Kontakt
             </Link>
           </li>
         </ul>
@@ -115,11 +115,11 @@ function Navbar() {
             </Link>
           </li>
           <li className="nav-item">
-            <RouterLink to="gallery">Galerie</RouterLink>
+            <RouterLink to="gallery">Beispiele</RouterLink>
           </li>
           <li className="nav-item">
             <Link to="kontakten" smooth duration={600}>
-              Kontakten
+              Kontakt
             </Link>
           </li>
         </ul>

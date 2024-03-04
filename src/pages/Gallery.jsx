@@ -77,7 +77,7 @@ const Gallery = () => {
           </LinkRouter>
         </div>
         <h2 className="2xl:text-[45px] my-8 text-[28px] font-bold 2xl:leading-[60px] text-center bg-gradient-to-r from-white to-[#a5a5a5] bg-clip-text text-transparent ">
-          Galerie
+          Beispiele
         </h2>
 
         <div className={`center-center border rounded z-10  `}>

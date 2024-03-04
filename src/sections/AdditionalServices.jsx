@@ -59,7 +59,9 @@ function AdditionalServices() {
 
               <p>
                 Optimieren Sie Ihren Arbeitsbereich mit exquisiten
-                Büromöbel-Lösungen für Produktivität und Eleganz.
+                Büromöbel-Lösungen für Produktivität und Eleganz. Wir bieten
+                auch hochwertige Büromöbel an, von namhaften Herstellern wie
+                VITRA, USM, Hülsta und Walter Knoll.
               </p>
             </li>
           </ul>
