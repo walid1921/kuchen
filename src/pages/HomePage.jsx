@@ -21,10 +21,9 @@ function HomePage() {
 
       <Projekte />
 
-      <div className="section flex flex-col gap-8 ">
+     
         <Brands />
-        <Brands direction="right" paddingTop={"20px"} />
-      </div>
+      
 
       <AdditionalServices />
 

@@ -5,32 +5,32 @@ import PrimaryBtn from "../components/btn/PrimaryBtn";
 const projects = [
   {
     id: 1,
-    title: "Kitchen Remodeling",
+    title: "Kitchen Classic",
     img: "/gallery/IMG_10.JPG",
   },
   {
     id: 2,
-    title: "Bathroom Renovation",
+    title: "Kitchen Classic",
     img: "/gallery/IMG_4.JPG",
   },
   {
     id: 3,
-    title: "Living Room Makeover",
+    title: "Kitchen Classic",
     img: "/gallery/IMG_12.JPG",
   },
   {
     id: 4,
-    title: "Outdoor Patio Upgrade",
+    title: "Kitchen Classic",
     img: "/gallery/IMG_29.JPG",
   },
   {
     id: 5,
-    title: "Home Office Transformation",
+    title: "Kitchen Classic",
     img: "/gallery/IMG_60.JPG",
   },
   {
     id: 6,
-    title: "Interior Design Consultation",
+    title: "Kitchen Classic",
     img: "/gallery/IMG_3.JPG",
   },
 ];

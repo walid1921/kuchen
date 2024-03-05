@@ -10,7 +10,7 @@ function AdditionalServices() {
           <img
             src="/gallery/IMG_27.JPG"
             alt=""
-            className="h-[250px] xl:absolute top-0 left-0 object-cover object-center z-5 hover:z-20 hover:cursor-pointer xl:hover:scale-105 transition-all ease-in-out duration-300 "
+            className="h-[250px] xl:absolute top-0 left-0 2xl:top-[100px] 2xl:left-[100px] object-cover object-center z-5 hover:z-20 hover:cursor-pointer xl:hover:scale-105 transition-all ease-in-out duration-300 "
           />
           <img
             src="/gallery/IMG_20.JPG"
@@ -26,7 +26,7 @@ function AdditionalServices() {
 
         <div className="lg:w-[40%] lg:mb-0 mb-12 px-8 md:px-0">
           <h3 className="text-primary text-[18px] font-semibold md:mb-16 mb-[60px] tracking-[4px]">
-            Unsere Zusätzlichen Leistungen
+            UNSERE ZUSÄTZLICHEN LEISTUNGEN
           </h3>
           <h2 className="2xl:text-[28px] text-[28px] font-bold  mb-[20px]  bg-gradient-to-r from-white to-[#a5a5a5] bg-clip-text text-transparent 2xl:w-[566px]">
             Erweitern Sie Ihr Zuhause oder Büro mit unseren Leistungen.

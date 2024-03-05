@@ -22,6 +22,8 @@ const UberUns = () => {
           </p>
         </div>
 
+        {/* <div></div> */}
+
         <h2 className="2xl:text-[45px] text-center text-[28px] font-bold 2xl:leading-[60px] md:text-left bg-gradient-to-r from-white to-[#a5a5a5] bg-clip-text text-transparent">
           Lösungen von Design bis Aufbau mit unseren Profis
         </h2>

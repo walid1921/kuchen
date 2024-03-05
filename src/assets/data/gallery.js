@@ -373,18 +373,18 @@ const images = [
     url: "/gallery/IMG_62.JPG",
   },
   {
-    id: 63,
-    title: "Image 63",
-
-    category: "mobel",
-    url: "/gallery/IMG_63.JPG",
-  },
-  {
     id: 64,
     title: "Image 64",
 
     category: "mobel",
     url: "/gallery/IMG_64.JPG",
+  },
+  {
+    id: 63,
+    title: "Image 63",
+
+    category: "mobel",
+    url: "/gallery/IMG_63.JPG",
   },
   {
     id: 65,
@@ -399,13 +399,6 @@ const images = [
 
     category: "mobel",
     url: "/gallery/IMG_66.JPG",
-  },
-  {
-    id: 67,
-    title: "Image 67",
-
-    category: "mobel",
-    url: "/gallery/IMG_67.JPG",
   },
   {
     id: 68,
