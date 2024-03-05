@@ -91,9 +91,9 @@ function Brands({ direction = "left" }) {
           UNSERE PARTNER
         </h3>
 
-        <h2 className="2xl:text-[45px] text-[28px] font-bold 2xl:leading-[60px] mb-[20px] text-center bg-gradient-to-r from-white to-[#a5a5a5] bg-clip-text text-transparent ">
+        {/* <h2 className="2xl:text-[45px] text-[28px] font-bold 2xl:leading-[60px] mb-[20px] text-center bg-gradient-to-r from-white to-[#a5a5a5] bg-clip-text text-transparent ">
           Wachstum und Innovation fördern
-        </h2>
+        </h2> */}
       </div>
 
       <Marquee pauseOnHover={true} direction={direction}>
@@ -104,7 +104,7 @@ function Brands({ direction = "left" }) {
               <img
                 src={logo.img}
                 alt=""
-                className="md:h-[40px] h-[25px] bg-no-repeat bg-cover bg-center filter invert grayscale hover:grayscale-0 hover:invert-0 hover:cursor-pointer transition-all ease-in-out duration-300"
+                className="md:h-[40px] h-[35px] bg-no-repeat bg-cover bg-center filter invert grayscale hover:grayscale-0 hover:invert-0 hover:cursor-pointer transition-all ease-in-out duration-300"
               />
             </Link>
           </div>
