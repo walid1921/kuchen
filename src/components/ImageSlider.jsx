@@ -37,9 +37,9 @@ const ImageSlider = ({ projects, openProject }) => {
                 alt={project.title}
               />
 
-              <span className="  text-[#bbb] absolute md:bottom-5 bottom-2 md:right-10 right-3 z-1 md:text-xl font-semibold ">
+              {/* <span className="  text-[#bbb] absolute md:bottom-5 bottom-2 md:right-10 right-3 z-1 md:text-xl font-semibold ">
                 {project.title}
-              </span>
+              </span> */}
             </div>
           ))}
         </div>
