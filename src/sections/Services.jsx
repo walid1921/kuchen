@@ -32,6 +32,13 @@ const steps = [
   {
     id: 5,
     number: "05",
+    title: "Produktion",
+    description:
+      "Nach Fertigstellung Ihrer Planung setzen wir alle Hebel in Bewegung, damit Ihre Traumküche fristgerecht bei unserem Küchenhersteller produziert wird",
+  },
+  {
+    id: 6,
+    number: "06",
     title: "Installation",
     description: "Unser Handwerker-Team erledigt den Aufbau Ihrer Traumkuche",
   },
