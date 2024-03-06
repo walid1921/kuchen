@@ -6,42 +6,34 @@ const steps = [
     number: "01",
     title: "Kontaktieren Sie uns",
     description:
-      "Nehmen Sie Kontakt mit uns auf, um detaillierte Informationen zu erhalten oder Fragen zu stellen. Wir stehen Ihnen zur Verfügung, um Ihnen zu helfen und alle Ihre Anfragen zu beantworten",
+      "Nehmen Sie Kontakt mit uns auf, um die nächsten Schritte zu planen",
   },
   {
     id: 2,
     number: "02",
     title: "Beratung",
     description:
-      "Erhalten Sie professionelle Beratung von unseren Experten. Wir helfen Ihnen, alle Aspekte zu verstehen und die besten Lösungen für Ihre Küche auszuwählen",
+      "Professionelle Beratung seitens unserer Experten ist garantiert. Gemeinsam suchen wir den besten Weg zur Umsetzung Ihrer Traumkuche",
   },
   {
     id: 3,
     number: "03",
     title: "Planung",
     description:
-      "Wir erstellen gemeinsam mit Ihnen einen detaillierten Plan für jeden Schritt des Projekts. Ihre Beteiligung an der Planung garantiert die Erfüllung all Ihrer Anforderungen und Wünsche",
+      "Gemeinsam mit Ihnen erstellen wir die einzelnen Schritte der Umsetzung, so dass alle Anforderungen erfüllt werden",
   },
   {
     id: 4,
     number: "04",
     title: "Design",
     description:
-      "Unsere Designer werden ein einzigartiges Design für Ihre Küche erstellen, unter Berücksichtigung Ihres Stils und Ihrer funktionalen Anforderungen. Das Ergebnis: Ästhetik und Komfort in jedem Detail",
+      "Ästhetik und Komfort in jeder Hinsicht. Unsere Designer helfen dabei Ihren Stil und Anforderungen umzusetzen",
   },
   {
     id: 5,
     number: "05",
-    title: "Produktion",
-    description:
-      "Dank moderner Ausrüstung und hochwertiger Materialien setzen wir Ihr Design in die Realität um. Verfolgen Sie den Produktionsprozess und überzeugen Sie sich von der Qualität unserer Produkte",
-  },
-  {
-    id: 6,
-    number: "06",
     title: "Installation",
-    description:
-      "Unsere qualifizierten Handwerker installieren alle Elemente Ihrer Küche unter Berücksichtigung jeder einzelnen Details. Das Ergebnis: eine fertige Küche, die allen Ihren Erwartungen entspricht",
+    description: "Unser Handwerker-Team erledigt den Aufbau Ihrer Traumkuche",
   },
 ];
 
@@ -54,7 +46,7 @@ const Services = () => {
             WIE ARBEITEN WIR
           </h3>
           <h2 className="2xl:text-[45px] text-[28px] font-bold 2xl:leading-[60px] mb-[20px]  bg-gradient-to-r from-white to-[#a5a5a5] bg-clip-text text-transparent 2xl:w-[566px]">
-            6 einfache Schritte zur Innenraumgestaltung
+            5 einfache Schritte zur Innenraumgestaltung
           </h2>
           <p className="2xl:text-[20px] text-[14px]  2xl:leading-[40px] leading-[30px] text-justify">
             Die Größe Ihrer Küche variiert je nach Layout. Die Form der Küche

@@ -29,10 +29,8 @@ const UberUns = () => {
         </h2>
 
         <p className="2xl:text-[20px] text-[14px] text-justify 2xl:leading-[40px] leading-[30px] ">
-          Ihre Küche zeigt, wer Sie sind, und ihr Design sollte Ihren Lebensstil
-          widerspiegeln. Egal, ob Sie einen traditionellen Geschmack haben oder
-          Neues ausprobieren möchten, wir helfen Ihnen, Ihre Traumküche zu
-          gestalten, die zu Ihnen passt.
+          Wir helfen Ihnen bei der Gestaltung Ihrer ganz persönlichen Küche. Von
+          Traditionell bis ganz Modern, alles ist dabei, was Ihren Stil ausmacht
         </p>
 
         <div className="2xl:flex-row flex flex-col gap-6 ">
@@ -44,9 +42,8 @@ const UberUns = () => {
           <div>
             <p className="text-[22px] font-bold mb-3">Bezahlbare Preise</p>
             <p className="2xl:text-[18px] text-[14px]  2xl:leading-[40px] leading-[30px] ">
-              Wir lassen Möbel maßanfertigen, um die Bedürfnisse aller Menschen
-              zu erfüllen und bieten sie zu ersch-winglichen und fairen Preisen
-              an.
+              Eine Traumküche muß nicht teuer sein, wir bauen es so, daß es in
+              Ihr Budget passt
             </p>
           </div>
         </div>
@@ -59,8 +56,8 @@ const UberUns = () => {
           <div>
             <p className="text-[22px] font-bold mb-3">Exklusives Design</p>
             <p className="2xl:text-[18px] text-[14px]  2xl:leading-[40px] leading-[30px] ">
-              Eine Mischung aus Vorstellungskraft, Erfahrung und
-              Professionalität ist das Geheimnis unseres Designs!
+              Unser Design kann alles umsetzen, wie Sie sich Ihre Traumküche
+              vorstellen
             </p>
           </div>
         </div>
@@ -73,9 +70,8 @@ const UberUns = () => {
           <div>
             <p className="text-[22px] font-bold mb-3">Professionelles Team</p>
             <p className="2xl:text-[18px] text-[14px]  2xl:leading-[40px] leading-[30px] ">
-              Klein, aber fein: Unser Team kombiniert Professionalität mit
-              familiärem Flair und setzt dabei kontinuierlich auf
-              Weiterentwicklung.
+              Unser professionelles Team geht auf Ihre Wünsche ein und setzt
+              dabei auf Ihr Wolfühlfaktor und höchste Zufriedenheit!
             </p>
           </div>
         </div>

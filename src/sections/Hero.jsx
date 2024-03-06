@@ -54,18 +54,16 @@ const Hero = () => {
       <div className="center-center h-full w-full">
         <div className="text-center xl:w-[50%] w-[95%] relative">
           <h1 className="xl:text-[80px] lg:text-[60px] md:text-[40px] text-[30px] font-extrabold md:leading-[80px] bg-gradient-to-r from-white to-[#a5a5a5] bg-clip-text text-transparent animate-moveInLeft">
-            Wir machen Ihre <span className="text-primary">Küche</span> zum
-            Trend!
+            Zeit fur eine neue Trend <span className="text-primary">Küche</span>
           </h1>
-          <div className="mt-[40px] md:mb-[96px] mb-[40px] mx-auto md:w-1/2 md:px-0 px-10">
+          <div className="mt-[40px] md:mb-[96px] mb-[40px] mx-auto md:w-[60%] md:px-0 px-10">
             <p className="md:text-[22px] text-[18px] animate-moveInRight">
-              Die Küche sollte um das gestaltet werden, was wirklich wichtig
-              ist: Familie, Essen und Leben
+              Die Küche ist das neue Lebensmittelpunkt in der Familie und im Haus
             </p>
           </div>
           <div className="center-center gap-5 animate-moveInBottom">
             <LinkScroll to="treffen">
-              <PrimaryBtn text="Termin vereinbaren" icon="BsFillSendFill"/>
+              <PrimaryBtn text="Termin vereinbaren" icon="BsFillSendFill" />
             </LinkScroll>
             <Link to="gallery">
               <SecondaryBtn />

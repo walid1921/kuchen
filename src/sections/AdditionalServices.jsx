@@ -37,9 +37,16 @@ function AdditionalServices() {
                 <HiOutlineCheckCircle size={25} color="#DCA14D" />
               </div>
 
+              <p>Luxuriöse Bäder für Ihren ganz persönlichen Geschmack</p>
+            </li>
+            <li className="flex items-start ">
+              <div className="mt-3 mr-4">
+                <HiOutlineCheckCircle size={25} color="#DCA14D" />
+              </div>
+
               <p>
-                Luxuriöse Badgestaltungen, die Ihren persönlichen Stil
-                widerspiegeln.
+                Hochwertige Möbelkollektionen mit Komfort und Stil für Ihren
+                Wohnraum
               </p>
             </li>
             <li className="flex items-start ">
@@ -48,20 +55,9 @@ function AdditionalServices() {
               </div>
 
               <p>
-                Hochwertige Möbelkollektionen für Komfort und Stil in Ihrem
-                Wohnraum.
-              </p>
-            </li>
-            <li className="flex items-start ">
-              <div className="mt-3 mr-4">
-                <HiOutlineCheckCircle size={25} color="#DCA14D" />
-              </div>
-
-              <p>
-                Optimieren Sie Ihren Arbeitsbereich mit exquisiten
-                Büromöbel-Lösungen für Produktivität und Eleganz. Wir bieten
-                auch hochwertige Büromöbel an, von namhaften Herstellern wie
-                VITRA, USM, Hülsta und Walter Knoll.
+                Exquisite Büromöbel- Lösungen für Produktivität und Eleganz.
+                Unser Sortiment bietet Marken wie VITRA, USM, Hülsta und Walter
+                Knoll
               </p>
             </li>
           </ul>
