@@ -54,7 +54,7 @@ const Hero = () => {
       <div className="center-center h-full w-full">
         <div className="text-center xl:w-[50%] w-[95%] relative">
           <h1 className="xl:text-[80px] lg:text-[60px] md:text-[40px] text-[30px] font-extrabold md:leading-[80px] bg-gradient-to-r from-white to-[#a5a5a5] bg-clip-text text-transparent animate-moveInLeft">
-            Zeit fur eine neue <span className="text-primary">Trend</span>Küche
+            Zeit fur eine neue <span className="text-primary">Trend</span> Küche
           </h1>
           <div className="mt-[40px] md:mb-[96px] mb-[40px] mx-auto md:w-[60%] md:px-0 px-10">
             <p className="md:text-[22px] text-[18px] animate-moveInRight">
