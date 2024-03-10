@@ -53,7 +53,7 @@ const Services = () => {
             WIE ARBEITEN WIR
           </h3>
           <h2 className="2xl:text-[45px] text-[28px] font-bold 2xl:leading-[60px] mb-[20px]  bg-gradient-to-r from-white to-[#a5a5a5] bg-clip-text text-transparent 2xl:w-[566px]">
-            5 einfache Schritte zur Innenraumgestaltung
+            6 einfache Schritte zur Innenraumgestaltung
           </h2>
           <p className="2xl:text-[20px] text-[14px]  2xl:leading-[40px] leading-[30px] text-justify">
             Die Größe Ihrer Küche variiert je nach Layout. Die Form der Küche
