@@ -1,6 +1,6 @@
 # Küchen Trend
 
-Is a responsive website for a kitchen shop, showcasing their services and products, and providing a contact form for inquiries.
+Is a responsive website for a kitchen design and installation company, showcasing their services and products, and providing a contact form for inquiries.
 
 - Check it out here [KuchenTrend](https://www.kuechentrend-kayu.de/).
 
@@ -12,7 +12,7 @@ Is a responsive website for a kitchen shop, showcasing their services and produc
 
 **Email management:** **`EmailJS`**
 
-**Other Libraries:** **`embla-carousel-react`** **`hamburger-react`** **`react-fast-marquee`** **`react-hot-toast`** **`react-icons`** **`react-lazy-load-image-component`** **`react-scroll`** **`react-modal`** **`Agile`**
+**Other Libraries:** **`embla-carousel-react`** **`hamburger-react`** **`react-fast-marquee`** **`react-hot-toast`** **`react-icons`** **`react-lazy-load-image-component`** **`react-scroll`** **`react-modal`**
 
 **Deployment:** **`Vercel`**
 
