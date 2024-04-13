@@ -1,6 +1,6 @@
 # Küchen Trend
 
-Is a responsive website for a kitchen design and installation company, showcasing their services and products, and providing a contact form for inquiries.
+A responsive landing page for a kitchen design and installation company, showcasing their services and products, and providing a contact form for inquiries. The outcome is a refined, user-friendly interface that seamlessly adapts to diverse screen sizes.
 
 - Check it out here [KuchenTrend](https://www.kuechentrend-kayu.de/).
 
