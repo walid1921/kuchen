@@ -2,6 +2,9 @@
 
 A responsive landing page for a kitchen design and installation company, showcasing their services and products, and providing a contact form for inquiries. The outcome is a refined, user-friendly interface that seamlessly adapts to diverse screen sizes.
 
+<img width="1512" alt="portfolio1" src="https://github.com/user-attachments/assets/adfcbf94-0676-4d03-89c5-1325076be567">
+
+
 - Check it out here [KuchenTrend](https://www.kuechentrend-kayu.de/).
 
 # 🛠️ Technologies & Tools Used
