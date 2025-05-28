@@ -9,7 +9,7 @@ function ProjectModal({ closeProject, gallery, selectedProject }) {
       onRequestClose={closeProject}
       style={{
         overlay: {
-          backgroundColor: "rgba(0, 0, 0, 0)",
+          backgroundColor: "rgba(0, 0, 0, 0.7)",
           backdropFilter: "blur(5px)",
           zIndex: 1000,
         },
